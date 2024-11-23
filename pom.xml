@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.140.95:9000/</sonar.host.url>
+		<!-- <sonar.host.url>http://13.233.140.95:9000/</sonar.host.url>
 		<sonar.login>squ_69c9aa62be26dfccebf0954c9c4fdcfd8853d774</sonar.login>
-		<!-- <sonar.password>passw0rd</sonar.password> 
+		<sonar.password>passw0rd</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> -->
 
@@ -93,7 +93,7 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
+	<!-- <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -107,7 +107,7 @@
 	      <url>http://13.232.37.194:8081/repository/facebook-dev-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>
+	</distributionManagement> -->
 	
 	<build>
 		<finalName>maven-web-application</finalName>
